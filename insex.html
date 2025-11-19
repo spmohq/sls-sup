@@ -1,23 +1,122 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <title>Redirecting…</title>
-  <!-- Wait 3 seconds then go -->
-  <meta http-equiv="refresh" content="3;url=https://example.com/new-path" />
-  <meta name="robots" content="noindex,follow" />
-  <link rel="canonical" href="https://example.com/new-path" />
-  <style>
-    body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial; text-align:center; padding:6rem; color:#222; }
-    .card { display:inline-block; padding:1.5rem; border-radius:8px; box-shadow:0 6px 20px rgba(0,0,0,.06); background:#fff; }
-    a { color: #0366d6; text-decoration:none; }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support Desk | SelfLearningSkills.online</title>
+    <link rel="icon" href="sls.ico" />
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f7f6;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        header {
+            background-color: #2c3e50;
+            color: #fff;
+            padding: 20px 10px;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        h1 {
+            margin: 0;
+            font-size: 1.8em;
+        }
+        .container {
+            flex-grow: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        .content-box {
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+            padding: 30px;
+            max-width: 500px;
+            width: 100%;
+            text-align: left;
+            box-sizing: border-box;
+        }
+        .content-box h2 {
+            color: #2c3e50;
+            margin-top: 0;
+            font-size: 1.5em;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 15px;
+            margin-bottom: 20px;
+        }
+        .content-box p {
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+        .content-box strong {
+            color: #34495e;
+        }
+        /* Style for the new button */
+        .subscribe-button {
+            display: inline-block;
+            background-color: #2c3e50;
+            color: #fff;
+            padding: 12px 25px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            margin-top: 10px;
+            transition: background-color 0.3s ease;
+        }
+        .subscribe-button:hover {
+            background-color: #34495e;
+        }
+        .footer {
+            background-color: #2c3e50;
+            color: #fff;
+            text-align: center;
+            padding: 15px 10px;
+            font-size: 0.9em;
+            box-shadow: 0 -2px 4px rgba(0,0,0,0.1);
+            margin-top: auto; /* Pushes the footer to the bottom */
+        }
+        .footer p {
+            margin: 0;
+        }
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 1.5em;
+            }
+            .content-box {
+                padding: 20px;
+                margin: 0 10px;
+            }
+        }
+    </style>
 </head>
 <body>
-  <div class="card">
-    <h1>Moving you now…</h1>
-    <p>If your browser doesn't automatically redirect, <a href="https://example.com/new-path">click here</a>.</p>
-    <p>(Redirecting in 3 seconds.)</p>
-  </div>
+    <header>
+        <h1>SelfLearningSkills.online</h1>
+    </header>
+    <div class="container">
+        <div class="content-box">
+            <!-- START: Replaced the non-working iframe with this content -->
+            <h2>Support Desk</h2>
+
+<p>কোনও প্রশ্ন আছে? সরাসরি কোনও হেল্প পেতে চান? আপনার প্রশ্ন, সমস্যা, বা মন্তব্য সরাসরি আমাদের ম্যাসেজ করুন 👇</p>
+
+            </p><div style="padding-bottom: 10px;">&nbsp;</div>
+            <a href="https://wa.me/919647496123" target="_blank" class="subscribe-button">
+                DM Now
+            </a>
+            <!-- END: Replacement content -->
+        </div>
+    </div>
+    <footer class="footer">
+      <p>Copyright &copy; <script>document.write(new Date().getFullYear())</script> SelfLearningSkills.online. All Rights Reserved.</p>
+    </footer>
 </body>
 </html>
